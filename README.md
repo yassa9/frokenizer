@@ -4,8 +4,9 @@
   <img src="assets/logo.png" width="96" height="96" alt="banner_">
 </p>
 
-```diff
-If you wish to make an apple pie from scratch, you must first invent the universe.
+```text
+If you wish to make an apple pie from scratch, 
+you must first invent the universe.
 - Carl Sagan
 ```
 
@@ -314,8 +315,9 @@ Python script generates a "torture corpus" (emojis, foreign languages, code, edg
 > [!NOTE]
 > Every number or a measure here is the mean of consecutive 5 runs, done manually (no scripts).
 
+## My Personal Desktop 
 <p align="center">
-  <img src="assets/chart0.png" width="640" height="360" alt="ex01_">
+  <img src="assets/chart0.png" width="640" height="360" alt="ex0_">
 </p>
 
 > [!NOTE]
@@ -327,12 +329,13 @@ Python script generates a "torture corpus" (emojis, foreign languages, code, edg
 > - Void Linux
 > ```
 
+## MacBook Machine
 <p align="center">
-  <img src="assets/char02.png" width="640" height="360" alt="ex01_">
+  <img src="assets/chart1.png" width="640" height="360" alt="ex1_">
 </p>
 
 > [!NOTE]
-> That is benchmarked on my current machine:
+> Thanks to [@0ssamaak0](https://github.com/0ssamaak0) for benchmarking and testing on his machine:
 > ```py
 > - MacBook M3 Pro
 > - 5 P-Cores + 6 E-Cores
@@ -368,7 +371,7 @@ You can wget manually different datasets with different sizes as you like from [
 > - Frokenizer relies on an aggressive 64-byte `FNV-1a` hash table for common words. Multilingual text misses this cache, forcing fallback tokenization.
 > - Non-Latin characters span 2 to 4 bytes. The chunker has to constantly pause and roll back at the 4096-byte boundary to ensure it doesn't slice a Unicode character in half, causing branch mispredictions.
 > 
-> I already put both readings in the previous charts -> Frokenizer (Multilingual) bars.
+> I already put both readings in the first chart -> Frokenizer (Multilingual) bars.
 ---
 
 # Reproducibility
