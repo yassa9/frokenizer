@@ -327,6 +327,19 @@ Python script generates a "torture corpus" (emojis, foreign languages, code, edg
 > - Void Linux
 > ```
 
+<p align="center">
+  <img src="assets/char02.png" width="640" height="360" alt="ex01_">
+</p>
+
+> [!NOTE]
+> That is benchmarked on my current machine:
+> ```py
+> - MacBook M3 Pro
+> - 5 P-Cores + 6 E-Cores
+> - 11 Threads
+> - 18 GB RAM
+> ```
+
 ### How to run:
 
 First, if you didn't generate the needed header files, run this:
