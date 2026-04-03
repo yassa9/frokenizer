@@ -1,0 +1,26 @@
+# .gitignore
+
+build/
+bin/
+factory/
+other/
+others/
+temp/
+.tmp/
+
+*.o
+*.a
+*.so
+
+__pycache__/
+
+data/*.txt
+data/*.bin
+data/*.en
+# explicitly allow the qwen vocabulary file
+!data/qwen.tiktoken
+
+
+*.bin
+*.txt
+*.en
