@@ -22,7 +22,7 @@ Frokenizer 🥶 or [Frozen Tokenizer]  is a [suckless](https://suckless.org/phil
 
 I have always been a believer in the philosophy of static, deterministic C++ software and the principles of High Performance Computing (HPC). When I looked at standard BPE implementations like `tiktoken` or `huggingface`, I noticed they rely heavily on dynamic heap allocations and regex engines, which "may" introduce latency and fragmentations.
 
-Although tokenization is a tiny phase in the LLM inference pipeline in general, representing usually $<= 2 \%$ of the total time, I just wanted to build a purely static one. You can consider it as a "show car" project to build intuition and try to push boundaries of BPE efficiency with some algorithms and techniques.
+Although tokenization is a tiny phase in the LLM inference pipeline in general, representing usually <=2% of the total time, I just wanted to build a purely static one. You can consider it as a "show car" project to build intuition and try to push boundaries of BPE efficiency with some algorithms and techniques.
 
 > [!IMPORTANT]
 > this engine is statically compiled and hardcoded for the Qwen tokenizer and its specific regex pattern.
