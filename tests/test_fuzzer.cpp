@@ -1,4 +1,7 @@
 // test_fuzzer.cpp
+// Copyright (c) 2026 Yassa Sfen
+// SPDX-License-Identifier: MIT
+
 #include <cstdint>
 #include <cstddef>
 #include <vector>

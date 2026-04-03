@@ -1,4 +1,7 @@
 // frokenizer.hpp
+// Copyright (c) 2026 Yassa Sfen
+// SPDX-License-Identifier: MIT
+
 #ifndef FROKENIZER_HPP
 #define FROKENIZER_HPP
 

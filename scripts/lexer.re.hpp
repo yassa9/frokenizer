@@ -1,4 +1,7 @@
 // lexer.re.hpp
+// Copyright (c) 2026 Yassa Sfen
+// SPDX-License-Identifier: MIT
+
 #ifndef LEXER_HPP
 #define LEXER_HPP
 

@@ -1,4 +1,7 @@
 // test_utils.hpp
+// Copyright (c) 2026 Yassa Sfen
+// SPDX-License-Identifier: MIT
+
 #ifndef TEST_UTILS_HPP
 #define TEST_UTILS_HPP
 
